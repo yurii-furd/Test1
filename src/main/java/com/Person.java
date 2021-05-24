@@ -23,12 +23,12 @@ public class Person {
                 '}';
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Person person = (Person) o;
-        return Objects.equals(name, person.name);
+    public void euals(Object o) {
+        System.out.println(o);
+
     }
 
+    public void say(){
+        System.out.println();
+    }
 }
