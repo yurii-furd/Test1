@@ -2,8 +2,6 @@ package com;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.util.Objects;
-
 public class Person {
     private String name;
 
@@ -24,6 +22,7 @@ public class Person {
     }
 
     public void euals(Object o) {
+        System.out.println(o);
         System.out.println(o);
 
     }
