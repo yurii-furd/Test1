@@ -24,6 +24,8 @@ public class Person {
     public void euals(Object o) {
         System.out.println(o);
         System.out.println(o);
+        System.out.println(o);
+        System.out.println(o);
 
     }
 
